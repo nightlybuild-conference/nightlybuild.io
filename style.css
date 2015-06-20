@@ -315,7 +315,6 @@ input[type='submit'] {
 /**
  * Theme
  */
-.location,
 .friends,
 .footer {
 	background: #7DCFB6;
@@ -900,7 +899,7 @@ li:hover .sponsors--contact {
 
 @media (min-width: 42em) {
 	.footer {
-		margin-top: 10rem;
+		margin-top: 8rem;
 	}
 }
 
