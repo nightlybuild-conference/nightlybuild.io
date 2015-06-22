@@ -326,6 +326,14 @@ input[type='submit'] {
 }
 
 /**
+ * Typography
+ */
+.main__teaser-text {
+	font-size: 1.3em;
+	line-height: 1.7;
+}
+
+/**
  * Header
  */
 .header__background {
@@ -581,13 +589,13 @@ pre .green {
 }
 
 .speakers li img {
-  max-height: 15rem;
+	max-height: 15rem;
 }
 
 @media (min-width: 35em) {
-  .speakers .cards:last-of-type li {
-    margin-top: 1.5em;
-  }
+	.speakers .cards:last-of-type li {
+		margin-top: 1.5em;
+	}
 }
 
 /**
@@ -940,6 +948,7 @@ li:hover .sponsors--contact {
 .gallery__images img {
 	display: block;
 	border: 1px solid rgba(210, 210, 210, 0.4);
+	transition: 0.2s;
 	filter: grayscale(80%);
 }
 
