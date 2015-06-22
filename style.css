@@ -595,15 +595,6 @@ pre .green {
  */
 .location {
 	position: relative;
-}
-
-.location:after {
-	content: '';
-	position: absolute;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	height: 10em;
 	background: #00161d;
 }
 
