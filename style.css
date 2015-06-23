@@ -640,6 +640,7 @@ pre .green {
 	overflow: hidden;
 	background-size: cover;
 	background-repeat: no-repeat;
+	transition: all 500ms ease-in-out;
 }
 
 .cards--large li.bastianallgeier {
@@ -654,6 +655,28 @@ pre .green {
 
 .cards--large li.christianheilmann {
 	background-image: url('img/speakers/christianheilmann.jpg');
+}
+
+@media (min-width: 400px) and (max-width: 600px) {
+	.cards--large li {
+		background-size: contain;
+	}
+}
+
+@media (max-width: 399px) {
+	.cards--large li {
+		background-size: contain;
+		padding-top: 22.5em; /* Height of the bgImg */
+		padding-left: 0.25rem;
+	}
+
+	.cards--large li.bastianallgeier {
+		background-image: url('img/speakers/bastianallgeier--small.jpg');
+	}
+
+	.cards--large li.christianheilmann {
+		background-image: url('img/speakers/christianheilmann--small.jpg');
+	}
 }
 
 .cards--large li .photo-attribution {
