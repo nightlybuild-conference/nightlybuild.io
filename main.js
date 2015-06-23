@@ -18,22 +18,6 @@
 		);
 	}
 
-	/**
-	 * Gallery
-	 */
-	$(document).on('click', '.gallery__images img', function (event) {
-		var image;
-		event.preventDefault();
-
-		$('.gallery__image__image').html('');
-		$('.gallery__image__image').html('<img src="' + this.getAttribute('data-image') + '" alt="' + this.getAttribute('src') + '" style="opacity: 0">');
-
-		// Use load event
-		setTimeout(function () {
-			$('.gallery__image__image img').css('opacity', 1);
-		}, 200);
-	});
-
 	/*
 	 * Location map
 	 */
