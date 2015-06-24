@@ -721,7 +721,7 @@ pre .green {
 }
 
 .sponsors .cards {
-	margin: 0 25% 3em;
+	margin-bottom: 3em;
 }
 
 .sponsors .cards img {
@@ -744,11 +744,11 @@ pre .green {
 }
 
 .sponsors .cards--gold li {
-	padding: 1em;
+	margin-top: 2.5em;
 }
 
 .sponsors .cards--silver {
-	margin: 2.5em 36% 0;
+	margin-top: 2.5em;
 }
 
 .sponsors .cards--silver li {
@@ -760,32 +760,10 @@ pre .green {
 	max-width: 100%;
 }
 
-@media (max-width: 50em) {
-	.sponsors .cards--gold {
-		margin: 5% 0 5% 0;
-	}
-
-	.sponsors .cards--silver {
-		margin: 5% 32%;
-	}
-}
-
-@media (max-width: 35em) {
-	.sponsors .cards {
-		overflow: hidden;
-		margin: 0 -0.5rem;
-	}
-
+@media (min-width: 45em) {
 	.sponsors .cards li {
-		display: inline;
-		float: left;
-		width: 50%;
-		margin-bottom: 0;
-	}
-
-	.sponsors .cards--gold li,
-	.sponsors .cards--silver li {
-		width: 100%;
+		width: 24%;
+		margin: 0;
 	}
 }
 
