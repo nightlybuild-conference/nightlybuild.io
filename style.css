@@ -717,7 +717,6 @@ pre .green {
  */
 .sponsors {
 	padding-top: 3em;
-	padding-bottom: 2em;
 	text-align: center;
 }
 
@@ -748,57 +747,26 @@ pre .green {
 	padding: 1em;
 }
 
+.sponsors .cards--silver {
+	margin: 2.5em 36% 0;
+}
+
+.sponsors .cards--silver li {
+	padding: 1.5em 1em;
+}
+
 .sponsors .cards img {
 	max-height: 210px;
 	max-width: 100%;
 }
 
-.sponsors--contact {
-	position: absolute;
-	right: 0;
-	left: 0;
-	bottom: 0;
-	padding: 0.5em 1em;
-	background: #eee;
-}
-
-li:hover .sponsors--contact {
-	background: #008ea8;
-	color: #fff;
-}
-
-/* Modal */
-.sponsor__contact__image {
-	float: left;
-	width: 100px;
-	margin: 0 1em 0 0;
-}
-
-.sponsor__contact__contacts {
-	list-style: none;
-	margin: 0;
-	padding: 0;
-}
-
-.sponsor__contact__contacts li {
-	border-top: 1px solid #eee;
-	padding-top: 1em;
-	margin-top: 1em;
-	overflow: hidden;
-}
-
-.sponsor__contact__contacts h3 {
-	margin: 0 0 0.5em;
-	font-size: 1.25em;
-}
-
-.sponsor__contact__contacts p {
-	margin: 0.5em 0;
-}
-
 @media (max-width: 50em) {
 	.sponsors .cards--gold {
 		margin: 5% 0 5% 0;
+	}
+
+	.sponsors .cards--silver {
+		margin: 5% 32%;
 	}
 }
 
@@ -815,7 +783,8 @@ li:hover .sponsors--contact {
 		margin-bottom: 0;
 	}
 
-	.sponsors .cards--gold li {
+	.sponsors .cards--gold li,
+	.sponsors .cards--silver li {
 		width: 100%;
 	}
 }
