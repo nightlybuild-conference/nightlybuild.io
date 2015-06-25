@@ -51,12 +51,27 @@ module.exports = function(grunt) {
     concat: {
       // concatenate js files (manually because of keeping the order intact)
       js: {
-        src: ['vendor/jquery.js', 'vendor/modal.js', 'vendor/rAF.js', 'vendor/hongkong.js', 'vendor/transiton.js', 'vendor/zoom.js', 'main.js'],
+        src: [
+          'vendor/jquery.js',
+          'vendor/modal.js',
+          'vendor/rAF.js',
+          'vendor/hongkong.js',
+          'node_modules/photoswipe/dist/photoswipe.js',
+          'node_modules/photoswipe/dist/photoswipe-ui-default.js',
+          'main.js'
+        ],
         dest: 'dist/main.js'
       },
       // concatenate css files (manually because of keeping the order intact)
       css: {
-        src: ['vendor/normalize.css', 'vendor/modal.css', 'vendor/zoom.css', 'style.css'],
+        src: [
+          'vendor/normalize.css',
+          'vendor/modal.css',
+          'vendor/zoom.css',
+          'node_modules/photoswipe/dist/photoswipe.css',
+          'node_modules/photoswipe/dist/default-skin/default-skin.css',
+          'style.css'
+        ],
         dest: 'dist/style.css'
       }
     },
