@@ -43,6 +43,7 @@ pre {
 h1,
 h2,
 h3,
+h4,
 .header__date,
 .button,
 .font-primary,
@@ -304,7 +305,8 @@ input[type='submit'] {
 .location__inner,
 .schedule,
 .get-there,
-.footer__inner {
+.footer__inner,
+.tickets__inner {
 	margin: 0 auto;
 	padding: 0 1em;
 	max-width: 60rem;
