@@ -18,22 +18,6 @@
 		);
 	}
 
-	/**
-	 * Gallery
-	 */
-	$(document).on('click', '.gallery__images img', function (event) {
-		var image;
-		event.preventDefault();
-
-		$('.gallery__image__image').html('');
-		$('.gallery__image__image').html('<img src="' + this.getAttribute('data-image') + '" alt="' + this.getAttribute('src') + '" style="opacity: 0">');
-
-		// Use load event
-		setTimeout(function () {
-			$('.gallery__image__image img').css('opacity', 1);
-		}, 200);
-	});
-
 	/*
 	 * Location map
 	 */
@@ -161,4 +145,52 @@
 			}
 		});
 	}());
+
+
+	/**
+	 * Gallery
+	 */
+	var galleryItems = [];
+
+	var initGallery = function (galleryTemplate) {
+		var $items = $('.gallery').find('img');
+
+		// build items array
+		galleryItems = $items.map(function () {
+			return {
+				src: this.src,
+				w: this.naturalWidth,
+				h: this.naturalHeight
+			};
+		});
+
+		$('body').append(galleryTemplate);
+	};
+
+	var createGallery = function (index) {
+
+		// Initializes and opens PhotoSwipe
+		var gallery = new PhotoSwipe(
+			document.querySelectorAll('.pswp')[0],
+			PhotoSwipeUI_Default,
+			galleryItems, {
+				index: index,
+				closeOnScroll: false,
+				shareEl: false,
+			}
+		);
+
+		gallery.init();
+
+	};
+
+	var handleGalleryClick = function () {
+		var index = $(this).parent().index();
+
+		createGallery(index);
+	};
+
+	$.get('templates/photoswipe.html', initGallery);
+	$('.gallery').on('click', 'img', handleGalleryClick);
+
 }());
