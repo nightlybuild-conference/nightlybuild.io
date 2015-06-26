@@ -269,7 +269,13 @@ input[type='submit'] {
 
 .button--big {
 	font-size: 1.5rem;
-	line-height: 3em;
+	line-height: 2em;
+}
+
+@media (min-width: 35em) {
+	.button--big {
+		line-height: 3em;
+	}
 }
 
 .button--small {
@@ -290,23 +296,31 @@ input[type='submit'] {
 }
 
 .button__label {
-	float: left;
 	padding: 0 0.75em;
 }
 
 @media (min-width: 35em) {
 	.button__label {
+		float: left;
 		padding: 0 1.5em;
 	}
 }
 
 .button__value {
-	float: left;
+	width: 100%;
+	display: block;
 	padding: 0 1em;
 	white-space: nowrap;
 	background-color: #7DCFB6;
 	color: #fff;
-	border-radius: 0 3px 3px 0;
+}
+
+@media (min-width: 35em) {
+	.button__value {
+		float: left;
+		width: auto;
+		border-radius: 0 3px 3px 0;
+	}
 }
 
 /**
@@ -606,10 +620,60 @@ pre .green {
 	padding-bottom: 2em;
 }
 
+.ticket {
+	background-image: url('img/ticket.svg');
+	background-size: contain;
+	background-repeat: no-repeat;
+	min-height: 18rem;
+	padding: 0.1rem 1rem;
+}
+
+.ticket__description,
+.ticket__description--extended {
+	display: none;
+}
+
+@media (min-width: 27em) {
+	.ticket {
+		min-height: 18rem;
+		padding: 1rem 1rem;
+	}
+
+	.ticket__description {
+		display: inline-block;
+	}
+}
+
+@media (min-width: 35em) {
+	.ticket {
+		min-height: 30rem;
+		padding: 2rem 4rem;
+	}
+
+	.ticket__description--extended {
+		display: inline;
+	}
+}
+
+@media (min-width: 45em) {
+	.ticket {
+		padding: 12.5% 4rem;
+	}
+}
+
+.ticket > * {
+	max-width: 70%;
+}
+
 .tickets h3,
 .tickets h4 {
-	text-align: center;
+	text-align: left;
 }
+
+.ticket-form .button--tickets {
+	margin: 0;
+}
+
 
 /**
  * Diversity Team
