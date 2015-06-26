@@ -30,11 +30,12 @@ module.exports = function(grunt) {
           {expand: true, src: ['index.html'], dest: 'dist/', filter: 'isFile'},
           {expand: true, src: ['last-minute.html'], dest: 'dist/', filter: 'isFile'},
           {expand: true, src: ['codeofconduct.html'], dest: 'dist/', filter: 'isFile'},
-          {expand: true, src: ['templates/photoswipe.html'], dest: 'dist/', filter: 'isFile'},
           {expand: true, src: ['robots.txt'], dest: 'dist/', filter: 'isFile'},
           {expand: true, src: ['conference.ics'], dest: 'dist/', filter: 'isFile'},
           {expand: true, src: ['CNAME'], dest: 'dist/', filter: 'isFile'},
-          {expand: true, src: ['favicon.ico'], dest: 'dist/', filter: 'isFile'}
+          {expand: true, src: ['favicon.ico'], dest: 'dist/', filter: 'isFile'},
+          {expand: true, src: ['templates/**'], dest: 'dist/templates/', filter: 'isFile'},
+          {expand: true, src: ['node_modules/dist/default-skin/**'], dest: 'dist/', filter: 'isFile'}
         ]
       },
       dist: {
