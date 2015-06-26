@@ -317,6 +317,7 @@ input[type='submit'] {
  * Theme
  */
 .theme {
+	padding-bottom: 1rem;
 	background: #00161d;
 }
 
