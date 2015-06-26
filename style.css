@@ -101,11 +101,11 @@ h2:after {
 }
 
 h2:before {
-	left: -6.5rem;
+	left: -9rem;
 }
 
 h2:after {
-	right: -6.5rem;
+	right: -9rem;
 }
 
 h3 {
@@ -302,6 +302,7 @@ input[type='submit'] {
 .sponsors,
 .friends__inner,
 .location__inner,
+.theme__inner,
 .schedule,
 .get-there,
 .footer__inner {
@@ -314,6 +315,13 @@ input[type='submit'] {
 
 /**
  * Theme
+ */
+.theme {
+	background: #00161d;
+}
+
+/**
+ * Friends
  */
 .friends,
 .footer {
