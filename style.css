@@ -44,6 +44,8 @@ h1,
 h2,
 h3,
 h4,
+h5,
+h6,
 .header__date,
 .button,
 .font-primary,
@@ -61,12 +63,16 @@ h4,
 /* Primary color */
 a,
 .color-primary {
-	color: #7DCFB6 /* scuba blue */
+	color: #7DCFB6;
 }
 
 /* Secondary color */
 .color-secondary {
-	color: #006375 /* blue green from logo */
+	color: #006375;
+}
+
+.background-secondary {
+	background: #006375;
 }
 
 h1,
@@ -121,6 +127,14 @@ h3 a {
 h4 {
 	font-weight: normal;
 	font-size: 1.25em;
+}
+
+h5 {
+	font-size: 1em;
+}
+
+p strong {
+	color: #7DCFB6;
 }
 
 ul {
@@ -246,7 +260,7 @@ input[type='submit'] {
 
 .button.is-inverted {
 	background: #fff;
-	color: #7DCFB6;
+	color: #006375;
 }
 
 .button:hover {
@@ -290,7 +304,9 @@ input[type='submit'] {
 	float: left;
 	padding: 0 1em;
 	white-space: nowrap;
-	background-color: #fff;
+	background-color: #7DCFB6;
+	color: #fff;
+	border-radius: 0 3px 3px 0;
 }
 
 /**
@@ -587,8 +603,34 @@ pre .green {
  */
 .tickets {
 	padding-top: 2em;
-	background: #00161d;
+	padding-bottom: 2em;
 }
+
+.tickets h3,
+.tickets h4 {
+	text-align: center;
+}
+
+/**
+ * Diversity Team
+ */
+
+.diversity-form {
+	text-align: center;
+}
+
+.diversity-crew {}
+
+@media (min-width: 17.5em) {
+	.cards.diversity-crew {
+		justify-content: center;
+	}
+}
+
+.cards.diversity-crew li {
+	margin: 0.5em 1em;
+}
+
 
 /**
  * Speakers
