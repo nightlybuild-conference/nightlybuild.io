@@ -34,8 +34,8 @@ module.exports = function(grunt) {
           {expand: true, src: ['conference.ics'], dest: 'dist/', filter: 'isFile'},
           {expand: true, src: ['CNAME'], dest: 'dist/', filter: 'isFile'},
           {expand: true, src: ['favicon.ico'], dest: 'dist/', filter: 'isFile'},
-          {expand: true, src: ['templates/**'], dest: 'dist/templates/', filter: 'isFile'},
-          {expand: true, src: ['node_modules/photoswipe/dist/default-skin/**'], dest: 'dist/', filter: 'isFile'}
+          {expand: true, src: ['templates/*.html'], dest: 'dist/', filter: 'isFile'},
+          {expand: true, src: ['node_modules/photoswipe/dist/default-skin/*.{svg,png,gif}'], dest: 'dist/', flatten: true, filter: 'isFile'}
         ]
       },
       dist: {
