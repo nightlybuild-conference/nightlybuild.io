@@ -316,6 +316,13 @@ input[type='submit'] {
 /**
  * Theme
  */
+.theme {
+	background: #00161d;
+}
+
+/**
+ * Friends
+ */
 .friends,
 .footer {
 	background: #7DCFB6;
