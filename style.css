@@ -222,7 +222,7 @@ input[type='submit'] {
  */
 .button {
 	-webkit-appearance: none;
-	   -moz-appearance: none;
+		 -moz-appearance: none;
 	display: inline-block;
 	margin: 1.5em auto;
 	padding: 0 2.5em;
@@ -446,7 +446,7 @@ input[type='submit'] {
 	font-size: 2rem;
 	margin: 2rem auto 1.5rem auto;
 	text-shadow: 0 0 5px rgba(0, 0, 0, 0.85),
-	             0 0 1px #000;
+							 0 0 1px #000;
 }
 
 @media (min-width: 42em) {
@@ -930,4 +930,19 @@ pre .green {
 	.gallery__images li {
 		width: 50%;
 	}
+}
+
+
+/**
+ * Fade in contexts
+ */
+.js [data-fx-fade] {
+	opacity: 0;
+	transform: translateY(3rem);
+	transition: 0.5s ease-out;
+}
+
+.js [data-fx-fade="in"] {
+	transform: translateY(0);
+	opacity: 1;
 }
