@@ -705,6 +705,10 @@ pre .green {
 	margin: 0 0 1rem 0;
 }
 
+.cards--large li h3:first-child {
+	margin-top: 1rem;
+}
+
 .cards--large li p {
 	font-size: 1rem;
 	max-width: 24rem;
