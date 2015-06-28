@@ -692,6 +692,10 @@ pre .green {
 	text-align: center;
 }
 
+.cards--large li.tba h3 {
+	font-size: 2rem;
+}
+
 .cards--large li.christianheilmann {
 	background-image: url('img/speakers/christianheilmann.jpg');
 }
@@ -718,9 +722,14 @@ pre .green {
 	}
 }
 
+/* Smaller font size for speaker headlines */
 @media (max-width: 600px) {
 	.cards--large li h3 {
 		font-size: 2rem;
+	}
+
+	.cards--large li.tba h3 {
+		font-size: 1.5rem;
 	}
 }
 
