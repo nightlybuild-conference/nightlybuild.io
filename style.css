@@ -643,42 +643,6 @@ pre .green {
 	transition: all 500ms ease-in-out;
 }
 
-.cards--large li.bastianallgeier {
-	background-image: url('img/speakers/bastianallgeier.jpg');
-}
-
-.cards--large li.tba {
-	color: #666;
-	padding: 6rem 1rem 1rem;
-	text-align: center;
-}
-
-.cards--large li.christianheilmann {
-	background-image: url('img/speakers/christianheilmann.jpg');
-}
-
-@media (min-width: 400px) and (max-width: 600px) {
-	.cards--large li {
-		background-size: contain;
-	}
-}
-
-@media (max-width: 399px) {
-	.cards--large li {
-		background-size: contain;
-		padding-top: 22.5em; /* Height of the bgImg */
-		padding-left: 0.25rem;
-	}
-
-	.cards--large li.bastianallgeier {
-		background-image: url('img/speakers/bastianallgeier--small.jpg');
-	}
-
-	.cards--large li.christianheilmann {
-		background-image: url('img/speakers/christianheilmann--small.jpg');
-	}
-}
-
 .cards--large li .photo-attribution {
 	font-size: 0.75rem;
 	color: #666;
@@ -716,6 +680,48 @@ pre .green {
 
 .cards--large a {
 	color: #fff;
+}
+
+.cards--large li.bastianallgeier {
+	background-image: url('img/speakers/bastianallgeier.jpg');
+}
+
+.cards--large li.tba {
+	color: #666;
+	padding: 6rem 1rem 1rem;
+	text-align: center;
+}
+
+.cards--large li.christianheilmann {
+	background-image: url('img/speakers/christianheilmann.jpg');
+}
+
+@media (min-width: 400px) and (max-width: 600px) {
+	.cards--large li {
+		background-size: contain;
+	}
+}
+
+@media (max-width: 399px) {
+	.cards--large li {
+		background-size: contain;
+		padding-top: 22.5em; /* Height of the bgImg */
+		padding-left: 0.25rem;
+	}
+
+	.cards--large li.bastianallgeier {
+		background-image: url('img/speakers/bastianallgeier--small.jpg');
+	}
+
+	.cards--large li.christianheilmann {
+		background-image: url('img/speakers/christianheilmann--small.jpg');
+	}
+}
+
+@media (max-width: 600px) {
+	.cards--large li h3 {
+		font-size: 2rem;
+	}
 }
 
 /**
