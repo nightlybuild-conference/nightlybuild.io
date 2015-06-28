@@ -73,34 +73,36 @@
 	</head>
 	<body>
 		<header class="header" id="top">
-			<h1 class="header__logo">Nightlybuild</h1>
+			<div class="header__inner">
+				<h1 class="header__logo">Nightlybuild</h1>
 
-			<p class="header__headline">NightlyBuild 2015</p>
-			<h3>Save the date: <time datetime="2015-09-04T18:00:00Z">4. September 2015</time></h3>
+				<p class="header__headline">NightlyBuild 2015</p>
+				<h3>Save the date: <time datetime="2015-09-04T18:00:00Z">4. September 2015</time></h3>
 
-			<!-- Begin MailChimp Signup Form -->
-			<div id="mc_embed_signup">
-				<form action="//drublic.us9.list-manage.com/subscribe/post" method="get" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate form" target="_blank" novalidate>
-					<!-- Hidden fields for form submit via get to fix the iOS webview issue -->
-					<input type="hidden" name="u" value="750875ebc78057d570fe3b4ef">
-					<input type="hidden" name="id" value="7b0e759ff2">
+				<!-- Begin MailChimp Signup Form -->
+				<div id="mc_embed_signup">
+					<form action="//drublic.us9.list-manage.com/subscribe/post" method="get" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate form" target="_blank" novalidate>
+						<!-- Hidden fields for form submit via get to fix the iOS webview issue -->
+						<input type="hidden" name="u" value="750875ebc78057d570fe3b4ef">
+						<input type="hidden" name="id" value="7b0e759ff2">
 
-					<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Enter Email Address" required>
-					<!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-					<div style="position: absolute; left: -5000px;">
-						<input type="text" name="b_750875ebc78057d570fe3b4ef_7b0e759ff2" tabindex="-1" value="">
-					</div>
-					<input type="submit" value="Register Interest" name="subscribe" id="mc-embedded-subscribe" class="button">
-				</form>
+						<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Enter Email Address" required>
+						<!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+						<div style="position: absolute; left: -5000px;">
+							<input type="text" name="b_750875ebc78057d570fe3b4ef_7b0e759ff2" tabindex="-1" value="">
+						</div>
+						<input type="submit" value="Register Interest" name="subscribe" id="mc-embedded-subscribe" class="button">
+					</form>
+				</div>
+				<!--End mc_embed_signup-->
+
+
+				<p class="header__summary">A hand-crafted after work conference for
+					web enthusiasts loving technology, design and inspiration in
+					Cologne, Germany.</p>
+
 			</div>
-			<!--End mc_embed_signup-->
-
-
-			<p class="header__summary">A hand-crafted after work conference for
-				web enthusiasts loving technology, design and inspiration in
-				Cologne, Germany.</p>
-
-			<div class="header__background" data-parallax-top data-parallax-factor="3,10"></div>
+			<div class="header__background"></div>
 		</header>
 
 		<main role="main" class="main">
@@ -278,8 +280,6 @@
 		<script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
 		<!-- build:js main.min.js -->
 		<script src="vendor/jquery.js"></script>
-		<script src="vendor/rAF.js"></script>
-		<script src="vendor/hongkong.js"></script>
 		<script src="vendor/modal.js"></script>
 		<script src="node_modules/photoswipe/dist/photoswipe.js"></script>
 		<script src="node_modules/photoswipe/dist/photoswipe-ui-default.js"></script>

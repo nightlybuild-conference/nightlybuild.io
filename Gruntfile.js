@@ -56,8 +56,6 @@ module.exports = function(grunt) {
         src: [
           'vendor/jquery.js',
           'vendor/modal.js',
-          'vendor/rAF.js',
-          'vendor/hongkong.js',
           'node_modules/photoswipe/dist/photoswipe.js',
           'node_modules/photoswipe/dist/photoswipe-ui-default.js',
           'main.js'
