@@ -54,7 +54,7 @@ module.exports = function(grunt) {
       // concatenate js files (manually because of keeping the order intact)
       js: {
         src: [
-          'vendor/jquery.js',
+          'node_modules/jquery/dist/jquery.js',
           'vendor/modal.js',
           'vendor/rAF.js',
           'vendor/hongkong.js',
