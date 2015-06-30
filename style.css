@@ -963,6 +963,10 @@ pre .green {
 	text-align: center;
 }
 
+.sponsors h2 {
+	margin-top: 3rem;
+}
+
 .sponsors .cards {
 	margin-bottom: 3em;
 }
