@@ -43,6 +43,9 @@ pre {
 h1,
 h2,
 h3,
+h4,
+h5,
+h6,
 .header__date,
 .button,
 .font-primary,
@@ -61,12 +64,16 @@ h3,
 /* Primary color */
 a,
 .color-primary {
-	color: #7DCFB6 /* scuba blue */
+	color: #7DCFB6;
 }
 
 /* Secondary color */
 .color-secondary {
-	color: #7DCFB6 /* blue green from logo */
+	color: #006375;
+}
+
+.background-secondary {
+	background: #006375;
 }
 
 h1,
@@ -121,6 +128,14 @@ h3 a {
 h4 {
 	font-weight: normal;
 	font-size: 1.25em;
+}
+
+h5 {
+	font-size: 1em;
+}
+
+p strong {
+	color: #7DCFB6;
 }
 
 ul {
@@ -246,7 +261,7 @@ input[type='submit'] {
 
 .button.is-inverted {
 	background: #fff;
-	color: #7DCFB6;
+	color: #006375;
 }
 
 .button:hover {
@@ -255,7 +270,13 @@ input[type='submit'] {
 
 .button--big {
 	font-size: 1.5rem;
-	line-height: 3em;
+	line-height: 2em;
+}
+
+@media (min-width: 35em) {
+	.button--big {
+		line-height: 3em;
+	}
 }
 
 .button--small {
@@ -276,21 +297,31 @@ input[type='submit'] {
 }
 
 .button__label {
-	float: left;
 	padding: 0 0.75em;
 }
 
 @media (min-width: 35em) {
 	.button__label {
+		float: left;
 		padding: 0 1.5em;
 	}
 }
 
 .button__value {
-	float: left;
+	width: 100%;
+	display: block;
 	padding: 0 1em;
 	white-space: nowrap;
-	background-color: #fff;
+	background-color: #7DCFB6;
+	color: #fff;
+}
+
+@media (min-width: 35em) {
+	.button__value {
+		float: left;
+		width: auto;
+		border-radius: 0 3px 3px 0;
+	}
 }
 
 /**
@@ -306,7 +337,8 @@ input[type='submit'] {
 .theme__inner,
 .schedule,
 .get-there,
-.footer__inner {
+.footer__inner,
+.tickets__inner {
 	margin: 0 auto;
 	padding: 0 1em;
 	max-width: 60rem;
@@ -593,6 +625,96 @@ pre .green {
 	margin-top: 5em;
 	text-align: center;
 }
+
+/**
+ * Tickets
+ */
+.tickets {
+	padding-top: 2em;
+	padding-bottom: 2em;
+}
+
+.ticket {
+	background-image: url('img/ticket.svg');
+	background-size: contain;
+	background-repeat: no-repeat;
+	min-height: 18rem;
+	padding: 0.1rem 1rem;
+}
+
+.ticket__description,
+.ticket__description--extended {
+	display: none;
+}
+
+@media (min-width: 27em) {
+	.ticket {
+		min-height: 18rem;
+		padding: 1rem 1rem;
+	}
+
+	.ticket__description {
+		display: inline-block;
+	}
+}
+
+@media (min-width: 35em) {
+	.ticket {
+		min-height: 30rem;
+		padding: 2rem 4rem;
+	}
+
+	.ticket__description--extended {
+		display: inline;
+	}
+}
+
+@media (min-width: 45em) {
+	.ticket {
+		padding: 12.5% 4rem;
+	}
+}
+
+@media (min-width: 60em) {
+	.ticket {
+		margin-bottom: 2rem;
+	}
+}
+
+.ticket > * {
+	max-width: 70%;
+}
+
+.tickets h3,
+.tickets h4 {
+	text-align: left;
+}
+
+.ticket-form .button--tickets {
+	margin: 0;
+}
+
+
+/**
+ * Diversity Team
+ */
+
+.diversity-form {
+	text-align: center;
+}
+
+.diversity-crew {}
+
+@media (min-width: 17.5em) {
+	.cards.diversity-crew {
+		justify-content: center;
+	}
+}
+
+.cards.diversity-crew li {
+	margin: 0.5em 1em;
+}
+
 
 /**
  * Speakers
