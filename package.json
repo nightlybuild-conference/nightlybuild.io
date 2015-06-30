@@ -34,5 +34,9 @@
     "url": "https://github.com/asciidisco/nightlybuild.io/issues"
   },
   "homepage": "http://nightlybuild.io/",
-  "private": true
+  "private": true,
+  "dependencies": {
+    "jquery": "^2.1.4",
+    "photoswipe": "^4.0.8"
+  }
 }

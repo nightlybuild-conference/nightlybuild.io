@@ -33,7 +33,9 @@ module.exports = function(grunt) {
           {expand: true, src: ['robots.txt'], dest: 'dist/', filter: 'isFile'},
           {expand: true, src: ['conference.ics'], dest: 'dist/', filter: 'isFile'},
           {expand: true, src: ['CNAME'], dest: 'dist/', filter: 'isFile'},
-          {expand: true, src: ['favicon.ico'], dest: 'dist/', filter: 'isFile'}
+          {expand: true, src: ['favicon.ico'], dest: 'dist/', filter: 'isFile'},
+          {expand: true, src: ['templates/*.html'], dest: 'dist/', filter: 'isFile'},
+          {expand: true, src: ['node_modules/photoswipe/dist/default-skin/*.{svg,png,gif}'], dest: 'dist/', flatten: true, filter: 'isFile'}
         ]
       },
       dist: {
@@ -51,12 +53,25 @@ module.exports = function(grunt) {
     concat: {
       // concatenate js files (manually because of keeping the order intact)
       js: {
-        src: ['vendor/jquery.js', 'vendor/modal.js', 'vendor/rAF.js', 'vendor/hongkong.js', 'main.js'],
+        src: [
+          'node_modules/jquery/dist/jquery.js',
+          'vendor/modal.js',
+          'node_modules/photoswipe/dist/photoswipe.js',
+          'node_modules/photoswipe/dist/photoswipe-ui-default.js',
+          'main.js'
+        ],
         dest: 'dist/main.js'
       },
       // concatenate css files (manually because of keeping the order intact)
       css: {
-        src: ['vendor/normalize.css', 'vendor/modal.css', 'vendor/loader.css', 'style.css'],
+        src: [
+          'vendor/normalize.css',
+          'vendor/modal.css',
+          'vendor/zoom.css',
+          'node_modules/photoswipe/dist/photoswipe.css',
+          'node_modules/photoswipe/dist/default-skin/default-skin.css',
+          'style.css'
+        ],
         dest: 'dist/style.css'
       }
     },
@@ -74,7 +89,8 @@ module.exports = function(grunt) {
         files: {
           'dist/index.html': 'dist/index.html',
           'dist/last-minute.html': 'dist/last-minute.html',
-          'dist/codeofconduct.html': 'dist/codeofconduct.html'
+          'dist/codeofconduct.html': 'dist/codeofconduct.html',
+          'dist/templates/photoswipe.html': 'dist/templates/photoswipe.html'
         }
       }
     },
