@@ -661,6 +661,12 @@ pre .green {
 	}
 }
 
+@media (min-width: 60em) {
+	.ticket {
+		margin-bottom: 2rem;
+	}
+}
+
 .ticket > * {
 	max-width: 70%;
 }
