@@ -740,10 +740,6 @@ pre .green {
 	background: #00161d;
 }
 
-.location__inner {
-	padding-top: 3em;
-}
-
 .location__osm {
 	z-index: 1;
 	width: 100%;
