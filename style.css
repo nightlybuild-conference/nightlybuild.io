@@ -635,6 +635,10 @@ pre .green {
 	padding-bottom: 2em;
 }
 
+.tickets h2 {
+	margin-top: 1.5rem;
+}
+
 .ticket {
 	background-image: url('img/ticket.svg');
 	background-size: contain;
