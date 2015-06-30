@@ -338,7 +338,8 @@ input[type='submit'] {
 .schedule,
 .get-there,
 .footer__inner,
-.tickets__inner {
+.tickets__inner,
+.newsletter {
 	margin: 0 auto;
 	padding: 0 1em;
 	max-width: 60rem;
@@ -941,6 +942,13 @@ pre .green {
 
 .cards p {
 	margin: 0.75rem;
+}
+
+/*
+ * Newsletter
+ */
+.newsletter {
+	text-align: center;
 }
 
 /**
