@@ -995,7 +995,7 @@ pre .green {
 }
 
 .sponsors .cards--silver li {
-	padding: 1.5em 1em;
+	padding: 2.5em 2em;
 }
 
 .sponsors .cards img {
@@ -1003,10 +1003,19 @@ pre .green {
 	max-width: 100%;
 }
 
+@media (min-width: 17.5em) {
+	.sponsors .cards {
+		justify-content: center;
+	}
+
+	.sponsors .cards li {
+		margin: 0 1em;
+	}
+}
+
 @media (min-width: 45em) {
 	.sponsors .cards li {
-		width: 24%;
-		margin: 0;
+		width: 25%;
 	}
 }
 
