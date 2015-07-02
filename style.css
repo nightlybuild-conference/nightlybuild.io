@@ -889,6 +889,10 @@ pre .green {
 	overflow: hidden;
 }
 
+.cards p strong {
+	color: inherit;
+}
+
 @media (min-width: 17.5em) {
 	.cards {
 		display: flexbox;
@@ -971,6 +975,11 @@ pre .green {
 	border-radius: 0;
 }
 
+.sponsors .cards li {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
 .sponsors .cards--gold {
 	margin-left: 0;
 	margin-right: 0;
@@ -1009,7 +1018,8 @@ pre .green {
 	}
 
 	.sponsors .cards li {
-		margin: 0 1em;
+		margin-left: 1em;
+		margin-right: 1em;
 	}
 }
 
