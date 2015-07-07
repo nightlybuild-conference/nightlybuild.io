@@ -765,7 +765,7 @@ pre .green {
 	width: 100%;
 	min-height: 18rem; /* @TODO Check responsive */
 	margin: 1rem 0;
-	padding: 0.25rem 0.25rem 0.25rem 40%;
+	padding: 0.25rem 0.25rem 1rem 40%;
 	background: #222;
 	color: #fff;
 	font-size: 0.8rem;
@@ -820,6 +820,10 @@ pre .green {
 	background-image: url('img/speakers/bastianallgeier.jpg');
 }
 
+.cards--large li.ashleywilliams {
+	background-image: url('img/speakers/ashleywilliams.jpg');
+}
+
 .cards--large li.tba {
 	color: #666;
 	padding: 6rem 1rem 1rem;
@@ -849,6 +853,10 @@ pre .green {
 
 	.cards--large li.bastianallgeier {
 		background-image: url('img/speakers/bastianallgeier--small.jpg');
+	}
+
+	.cards--large li.ashleywilliams {
+		background-image: url('img/speakers/ashleywilliams--small.jpg');
 	}
 
 	.cards--large li.christianheilmann {
