@@ -824,6 +824,10 @@ pre .green {
 	background-image: url('img/speakers/ashleywilliams.jpg');
 }
 
+.cards--large li.ashleywilliams p {
+	max-width: 28rem;
+}
+
 .cards--large li.tba {
 	color: #666;
 	padding: 6rem 1rem 1rem;
@@ -838,7 +842,7 @@ pre .green {
 	background-image: url('img/speakers/christianheilmann.jpg');
 }
 
-@media (min-width: 400px) and (max-width: 600px) {
+@media (min-width: 400px) and (max-width: 750px) {
 	.cards--large li {
 		background-size: contain;
 	}
