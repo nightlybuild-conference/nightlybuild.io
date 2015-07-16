@@ -828,6 +828,14 @@ pre .green {
 	max-width: 28rem;
 }
 
+.cards--large li.lizziemarycullen {
+	background-image: url('img/speakers/lizziemarycullen.jpg');
+}
+
+.cards--large li.lizziemarycullen p {
+	max-width: 30rem;
+}
+
 .cards--large li.tba {
 	color: #666;
 	padding: 6rem 1rem 1rem;
