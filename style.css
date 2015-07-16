@@ -826,6 +826,14 @@ pre .green {
 	max-width: 28rem;
 }
 
+.cards--large li.lizziemarycullen {
+	background-image: url('img/speakers/lizziemarycullen.jpg');
+}
+
+.cards--large li.lizziemarycullen p {
+	max-width: 30rem;
+}
+
 .cards--large li.tba {
 	color: #666;
 	padding: 6rem 1rem 1rem;
@@ -863,6 +871,10 @@ pre .green {
 
 	.cards--large li.christianheilmann {
 		background-image: url('img/speakers/christianheilmann--small.jpg');
+	}
+
+	.cards--large li.lizziemarycullen {
+		background-image: url('img/speakers/lizziemarycullen--small.jpg');
 	}
 }
 
