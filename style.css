@@ -332,7 +332,6 @@ input[type='submit'] {
 .notice,
 .speakers,
 .sponsors,
-.friends__inner,
 .location__inner,
 .theme__inner,
 .schedule,
@@ -358,7 +357,6 @@ input[type='submit'] {
 /**
  * Friends
  */
-.friends,
 .footer {
 	background: #7DCFB6;
 	color: #fff;
@@ -968,25 +966,30 @@ pre .green {
 }
 
 /**
- * Sponsors
+ * Sponsors & Friends
  */
+.friends,
 .sponsors {
 	padding-top: 3em;
 	text-align: center;
 }
 
+.friends h2,
 .sponsors h2 {
 	margin-top: 3rem;
 }
 
+.friends .cards,
 .sponsors .cards {
 	margin-bottom: 3em;
 }
 
+.friends .cards img,
 .sponsors .cards img {
 	border-radius: 0;
 }
 
+.friends .cards li,
 .sponsors .cards li {
 	margin-top: 0.5em;
 	margin-bottom: 0.5em;
@@ -1019,16 +1022,36 @@ pre .green {
 	padding: 2.5em 2em;
 }
 
+.sponsors .cards--silver {
+	margin-top: 2.5em;
+}
+
+.sponsors .cards--silver li {
+	padding: 2.5em 2em;
+}
+
 .sponsors .cards img {
 	max-height: 210px;
 	max-width: 100%;
 }
 
+.friends .cards img {
+	max-height: 150px;
+	max-width: 100%;
+}
+
+.friends .cards li {
+  	width: 15%;
+  	max-width: 140px;
+}
+
 @media (min-width: 17.5em) {
+	.friends .cards,
 	.sponsors .cards {
 		justify-content: center;
 	}
 
+	.friends .cards li,
 	.sponsors .cards li {
 		margin-left: 1em;
 		margin-right: 1em;
@@ -1072,7 +1095,7 @@ pre .green {
 /**
  * Friends
  */
-.friends__inner {
+/*.friends__inner {
 	padding: 1em 1em 5em;
 }
 
@@ -1096,7 +1119,7 @@ pre .green {
 
 .friends .cards.no-auto-grow li {
 	flex-grow: 0;
-}
+}*/
 
 /**
  * Footer
