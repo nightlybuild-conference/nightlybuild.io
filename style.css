@@ -874,6 +874,10 @@ pre .green {
 	.cards--large li.christianheilmann {
 		background-image: url('img/speakers/christianheilmann--small.jpg');
 	}
+
+	.cards--large li.lizziemarycullen {
+		background-image: url('img/speakers/lizziemarycullen--small.jpg');
+	}
 }
 
 /* Smaller font size for speaker headlines */
