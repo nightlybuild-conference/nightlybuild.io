@@ -942,6 +942,10 @@ pre .green {
 		flex-grow: 0;
 		width: 32%;
 	}
+
+	.cards--gold li {
+		width: 40%;
+	}
 }
 
 
@@ -1008,8 +1012,7 @@ pre .green {
 }
 
 .sponsors .cards--gold {
-	margin-left: 0;
-	margin-right: 0;
+	margin-top: 2em;
 }
 
 .sponsors .cards--gold li {
@@ -1019,11 +1022,7 @@ pre .green {
 }
 
 .sponsors .cards--gold p {
-	margin: 0 0 2em;
-}
-
-.sponsors .cards--gold li {
-	margin-top: 2.5em;
+	margin: 0.5em 0 1em;
 }
 
 .sponsors .cards--silver {
@@ -1035,7 +1034,7 @@ pre .green {
 }
 
 .sponsors .cards--silver {
-	margin-top: 2.5em;
+	margin-top: 2em;
 }
 
 .sponsors .cards--silver li {
@@ -1045,6 +1044,11 @@ pre .green {
 .sponsors .cards img {
 	max-height: 210px;
 	max-width: 100%;
+}
+
+.sponsors .cards--gold img {
+	max-height: 230px;
+	max-width: 230px;
 }
 
 .friends .cards img {
@@ -1073,6 +1077,9 @@ pre .green {
 @media (min-width: 45em) {
 	.sponsors .cards li {
 		width: 25%;
+	}
+	.sponsors .cards--gold li {
+		width: 33%;
 	}
 }
 
