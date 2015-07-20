@@ -338,7 +338,8 @@ input[type='submit'] {
 .get-there,
 .footer__inner,
 .tickets__inner,
-.newsletter {
+.newsletter,
+.friends {
 	margin: 0 auto;
 	padding: 0 1em;
 	max-width: 60rem;
@@ -1057,8 +1058,8 @@ pre .green {
 }
 
 .friends .cards li {
-  	width: 15%;
-  	max-width: 140px;
+	width: 15%;
+	max-width: 140px;
 }
 
 @media (min-width: 17.5em) {
