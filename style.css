@@ -831,8 +831,13 @@ pre .green {
 	background-image: url('img/speakers/lizziemarycullen.jpg');
 }
 
+.cards--large li.stefanieschirmer p,
 .cards--large li.lizziemarycullen p {
 	max-width: 30rem;
+}
+
+.cards--large li.stefanieschirmer {
+	background-image: url('img/speakers/stefanieschirmer.jpg');
 }
 
 .cards--large li.tba {
@@ -864,6 +869,10 @@ pre .green {
 
 	.cards--large li.bastianallgeier {
 		background-image: url('img/speakers/bastianallgeier--small.jpg');
+	}
+
+	.cards--large li.stefanieschirmer {
+		background-image: url('img/speakers/stefanieschirmer--small.jpg');
 	}
 
 	.cards--large li.ashleywilliams {
