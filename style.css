@@ -1036,19 +1036,23 @@ pre .green {
 }
 
 .sponsors .cards--silver {
-	margin-top: 2.5em;
-}
-
-.sponsors .cards--silver li {
-	padding: 2.5em 2em;
-}
-
-.sponsors .cards--silver {
 	margin-top: 2em;
 }
 
 .sponsors .cards--silver li {
 	padding: 2.5em 2em;
+}
+
+.sponsors .cards--bronze {
+	margin-top: 2em;
+}
+
+.sponsors .cards--bronze li {
+	padding: 1em;
+}
+
+.sponsors .cards--bronze p {
+	margin-top: 0;
 }
 
 .sponsors .cards img {
@@ -1091,6 +1095,10 @@ pre .green {
 	.sponsors .cards--gold li {
 		width: 33%;
 	}
+
+    .sponsors .cards--bronze li {
+	    max-width: 200px;
+    }
 }
 
 /**
