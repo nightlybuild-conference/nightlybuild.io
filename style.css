@@ -1065,6 +1065,11 @@ pre .green {
 	max-width: 230px;
 }
 
+.sponsors .cards--gold img.logo-block {
+	max-height: 100%;
+	max-width: 100%;
+}
+
 .friends .cards img {
 	max-height: 150px;
 	max-width: 100%;
