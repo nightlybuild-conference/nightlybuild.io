@@ -1005,9 +1005,13 @@ pre .green {
 	margin-top: 3rem;
 }
 
-.friends .cards,
 .sponsors .cards {
 	margin-bottom: 3em;
+}
+
+.friends .cards {
+	margin-left: 5em;
+	margin-right: 5em;
 }
 
 .friends .cards img,
@@ -1015,10 +1019,14 @@ pre .green {
 	border-radius: 0;
 }
 
-.friends .cards li,
 .sponsors .cards li {
 	margin-top: 0.5em;
 	margin-bottom: 0.5em;
+}
+
+.friends .cards li {
+	margin-top: 1em;
+	margin-bottom: 1em;
 }
 
 .sponsors .cards--gold {
@@ -1076,8 +1084,7 @@ pre .green {
 }
 
 .friends .cards li {
-	width: 15%;
-	max-width: 140px;
+	width: 20%;
 }
 
 @media (min-width: 17.5em) {
@@ -1093,17 +1100,25 @@ pre .green {
 	}
 }
 
+@media (max-width: 50em) {
+	.friends .cards {
+		margin-left: 0;
+		margin-right: 0;
+	}
+}
+
 @media (min-width: 45em) {
 	.sponsors .cards li {
 		width: 25%;
 	}
+
 	.sponsors .cards--gold li {
 		width: 33%;
 	}
 
-    .sponsors .cards--bronze li {
-	    max-width: 200px;
-    }
+		.sponsors .cards--bronze li {
+			max-width: 200px;
+		}
 }
 
 /**
