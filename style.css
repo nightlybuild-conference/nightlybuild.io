@@ -840,6 +840,10 @@ pre .green {
 	background-image: url('img/speakers/stefanieschirmer.jpg');
 }
 
+.cards--large li.garannmeans {
+	background-image: url('img/speakers/garannmeans.jpg');
+}
+
 .cards--large li.tba {
 	color: #666;
 	padding: 6rem 1rem 1rem;
@@ -885,6 +889,10 @@ pre .green {
 
 	.cards--large li.lizziemarycullen {
 		background-image: url('img/speakers/lizziemarycullen--small.jpg');
+	}
+
+	.cards--large li.garannmeans {
+		background-image: url('img/speakers/garannmeans--small.jpg');
 	}
 }
 
