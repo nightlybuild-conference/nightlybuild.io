@@ -1,0 +1,20 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 -46 293 293">
+	<g id="color-block">
+		<polygon fill-rule="evenodd" clip-rule="evenodd" fill="#5fc8d6" stroke="#5fc8d6" stroke-width="0.6" points="53,142 40,48 106,103"/>
+		<polygon fill-rule="evenodd" clip-rule="evenodd" fill="#4e9eaa" stroke="#4e9eaa" stroke-width="0.6" points="148,142 53,142 106,103"/>
+		<polygon fill-rule="evenodd" clip-rule="evenodd" fill="#2f575c" stroke="#2f575c" stroke-width="0.6" points="125,198 53,142 148,142"/>
+		<polygon fill-rule="evenodd" clip-rule="evenodd" fill="#384e51" stroke="#384e51" stroke-width="0.6" points="125,198 148,142 210,152"/>
+		<polygon fill-rule="evenodd" clip-rule="evenodd" fill="#4e9099" stroke="#4e9099" stroke-width="0.6" points="148,142 197,115 210,152"/>
+		<polygon fill-rule="evenodd" clip-rule="evenodd" fill="#84bbc2" stroke="#84bbc2" stroke-width="0.6" points="148,142 145,97 197,115"/>
+		<polygon fill-rule="evenodd" clip-rule="evenodd" fill="#8ebec3" stroke="#8ebec3" stroke-width="0.6" points="106,103 145,97 148,142"/>
+		<polygon fill-rule="evenodd" clip-rule="evenodd" fill="#aad0d5" stroke="#aad0d5" stroke-width="0.6" points="106,103 133,76 145,97"/>
+		<polygon fill-rule="evenodd" clip-rule="evenodd" fill="#addee4" stroke="#addee4" stroke-width="0.6" points="106,103 40,48 133,76"/>
+		<polygon fill-rule="evenodd" clip-rule="evenodd" fill="#d1e0e3" stroke="#d1e0e3" stroke-width="0.6" points="145,97 133,76 167,52"/>
+		<polygon fill-rule="evenodd" clip-rule="evenodd" fill="#d0e5e8" stroke="#d0e5e8" stroke-width="0.6" points="145,97 167,52 182,60"/>
+		<polygon fill-rule="evenodd" clip-rule="evenodd" fill="#a4d1d7" stroke="#a4d1d7" stroke-width="0.6" points="145,97 182,60 197,115"/>
+		<polygon fill-rule="evenodd" clip-rule="evenodd" fill="#a1d9e0" stroke="#a1d9e0" stroke-width="0.6" points="197,115 182,60 222,68"/>
+		<polygon fill-rule="evenodd" clip-rule="evenodd" fill="#78d0db" stroke="#78d0db" stroke-width="0.6" points="197,115 222,68 250,85"/>
+		<polygon fill-rule="evenodd" clip-rule="evenodd" fill="#32b5c7" stroke="#32b5c7" stroke-width="0.6" points="210,152 197,115 250,85"/>
+		<polygon fill-rule="evenodd" clip-rule="evenodd" fill="#b4e7ee" stroke="#b4e7ee" stroke-width="0.6" points="250,85 222,68 253,40"/>
+	</g>
+</svg>
