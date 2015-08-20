@@ -199,7 +199,7 @@
 	 */
 	(function () {
 		var $window = $(window);
-		var mq; = window.matchMedia( "(min-width: 672px)" );
+		var mq = window.matchMedia( "(min-width: 672px)" );
 
 		var revealOnScroll = function () {
 			var scrolled = $window.scrollTop();
