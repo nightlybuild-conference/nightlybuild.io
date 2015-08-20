@@ -199,6 +199,7 @@
 	 */
 	(function () {
 		var $window = $(window);
+		var mq = window.matchMedia( "(min-width: 672px)" );
 
 		var revealOnScroll = function () {
 			var scrolled = $window.scrollTop();
@@ -214,6 +215,8 @@
 			});
 		};
 
-		$window.on('scroll', revealOnScroll).trigger('scroll');
+		if (mq.matches) {
+			$window.on('scroll', revealOnScroll).trigger('scroll');
+		}
 	}());
 }());
