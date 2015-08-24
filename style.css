@@ -1156,11 +1156,14 @@ pre .green {
 .schedule td:first-child {
 	width: 40%;
 	text-align: right;
-	font-size: 2em;
-	font-weight: bold;
+
 }
 
-
+.schedule td > time {
+	color: #7DCFB6;
+	font-family: 'Oswald', sans-serif;
+	font-size: 1.5em;
+}
 
 .schedule td > h3 {
 	margin: 0;
