@@ -1134,6 +1134,7 @@ pre .green {
  */
 .schedule {
 	padding-top: 3em;
+	padding-bottom: 1.5em;
 }
 
 .schedule table {
@@ -1141,21 +1142,32 @@ pre .green {
 	width: 100%;
 }
 
-	.schedule td {
-		padding: 1.5rem 1.5rem 0.5rem;
-		vertical-align: top;
+.schedule td {
+	padding: 1.5rem 1.5rem 0.5rem;
+	vertical-align: top;
 
-		border-bottom: thin solid #9ebecd;
-	}
+	border-bottom: thin solid #9ebecd;
+}
 
-		.schedule td:first-child {
-			width: 40%;
-			text-align: right;
-		}
+.schedule tr:last-child td {
+	border-bottom: none;
+}
 
-		.schedule td > h3 {
-			margin: 0;
-		}
+.schedule td:first-child {
+	width: 40%;
+	text-align: right;
+
+}
+
+.schedule td > time {
+	color: #7DCFB6;
+	font-family: 'Oswald', sans-serif;
+	font-size: 1.5em;
+}
+
+.schedule td > h3 {
+	margin: 0;
+}
 
 /**
  * Friends
