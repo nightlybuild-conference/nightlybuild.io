@@ -40,6 +40,11 @@ pre {
 	font-weight: normal;
 }
 
+iframe {
+	max-width: 100%;
+	overflow: scroll;
+}
+
 h1,
 h2,
 h3,
