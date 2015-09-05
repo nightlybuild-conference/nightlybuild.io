@@ -91,7 +91,8 @@ module.exports = function(grunt) {
           'dist/index.html': 'dist/index.html',
           'dist/last-minute.html': 'dist/last-minute.html',
           'dist/codeofconduct.html': 'dist/codeofconduct.html',
-          'dist/templates/photoswipe.html': 'dist/templates/photoswipe.html'
+          'dist/templates/photoswipe.html': 'dist/templates/photoswipe.html',
+          'dist/feedback.html': 'dist/feedback.html'
         }
       }
     },
