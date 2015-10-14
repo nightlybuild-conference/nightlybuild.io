@@ -1328,6 +1328,9 @@ pre .green {
 	}
 }
 
+.modal-video .modal-content {
+	min-height: 360px;
+}
 
 /**
  * Fade in contexts
