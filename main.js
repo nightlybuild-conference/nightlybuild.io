@@ -22,7 +22,7 @@
 	 * Location map
 	 */
 
-	loadCSS('http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css');
+	loadCSS('https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.css');
 
 	var map = L.map('map', {
 		center: [50.95109, 6.91963],
