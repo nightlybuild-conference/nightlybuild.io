@@ -29,6 +29,7 @@ module.exports = function(grunt) {
         files: [
           {expand: true, src: ['index.html'], dest: 'dist/', filter: 'isFile'},
           {expand: true, src: ['last-minute.html'], dest: 'dist/', filter: 'isFile'},
+          {expand: true, src: ['feedback.html'], dest: 'dist/', filter: 'isFile'},
           {expand: true, src: ['codeofconduct.html'], dest: 'dist/', filter: 'isFile'},
           {expand: true, src: ['robots.txt'], dest: 'dist/', filter: 'isFile'},
           {expand: true, src: ['conference.ics'], dest: 'dist/', filter: 'isFile'},
@@ -90,7 +91,8 @@ module.exports = function(grunt) {
           'dist/index.html': 'dist/index.html',
           'dist/last-minute.html': 'dist/last-minute.html',
           'dist/codeofconduct.html': 'dist/codeofconduct.html',
-          'dist/templates/photoswipe.html': 'dist/templates/photoswipe.html'
+          'dist/templates/photoswipe.html': 'dist/templates/photoswipe.html',
+          'dist/feedback.html': 'dist/feedback.html'
         }
       }
     },
@@ -134,7 +136,7 @@ module.exports = function(grunt) {
     // replace original filenames with their revisioned coungterparts
     // only changes in index.html & our minified css are necessary
     usemin: {
-      html: ['dist/index.html', 'dist/last-minute.html'],
+      html: ['dist/index.html', 'dist/last-minute.html', 'dist/feedback.html'],
       css: ['dist/*.min.*.css']
     },
 
